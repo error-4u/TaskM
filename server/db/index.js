@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Todo = exports.User = void 0;
-var mongoose = require("mongoose");
-var userSchema = new mongoose.Schema({
+const mongoose = require("mongoose");
+const userSchema = new mongoose.Schema({
     username: String,
     password: String,
 });
-var todoSchema = new mongoose.Schema({
+const todoSchema = new mongoose.Schema({
     title: String,
     description: String,
     done: Boolean,

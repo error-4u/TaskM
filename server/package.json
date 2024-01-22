@@ -1,10 +1,12 @@
 {
-  "name": "assignment-1",
+  "name": "TaskM-backend",
   "version": "1.0.0",
-  "description": "Convert this from JS to typescript.",
+  "description": "TaskM backend build with TypeScript ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "start": "npm run tsc && node index.js"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +22,7 @@
     "@types/express": "^4.17.21",
     "@types/jsonwebtoken": "^9.0.5",
     "@types/mongoose": "^5.11.97",
-    "@types/node": "^20.11.5"
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3"
   }
 }

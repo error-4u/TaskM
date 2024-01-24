@@ -15,9 +15,7 @@ app.use("/auth", authRoutes);
 app.use("/todo", todoRoutes);
 
 const dbkey:string  = process.env.DB_KEY!;
-// if(!dbkey){
-//     console.error("db key is not defined ")
-// }
+
 
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)

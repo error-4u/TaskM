@@ -22,7 +22,7 @@ const TodoList = () => {
     const navigate = useNavigate()
     useEffect(() => {
         const getTodos = async () => {
-            const response = await fetch('http://localhost:3000/todo/todos', {
+            const response = await fetch('http://localhost:3000/todos', {
                 headers: { Authorization: `Bearer ${localStorage.getItem("token")}` }
             });
             // Todo: Create a type for the response that you get back from the server
@@ -101,6 +101,7 @@ const TodoList = () => {
                     <h3>{todo.title}</h3>
                     <p>{todo.description}</p>
                     <center>
+                   
                     <Button variant='contained' size='small'
                     style={{ backgroundImage: 'linear-gradient(19deg, #21D4FD 0%, #B721FF 100%)', color:'black'  }}
                     

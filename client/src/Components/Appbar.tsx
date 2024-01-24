@@ -17,7 +17,7 @@ function Appbar() {
         <div style={{marginLeft: 10, cursor: "pointer", color:"white"}} onClick={() => {
             navigate("/")
         }}>
-            <Typography variant={"h6"}>TODO</Typography>
+            <Typography variant={"h6"}>TaskM</Typography>
         </div>
 
         <div style={{display: "flex"}}>

@@ -76,7 +76,7 @@ const TodoList = () => {
             <center>
             <Card variant={"outlined"} style={{width: 400, padding: 20,border:"2px solid white" ,borderRadius:"20px", alignItems:"center", justifyContent:"center", minWidth:"700px", minHeight:"40vh", paddingBlock:"100px"}}>
             <div style={{backgroundColor:"white", display:"flex", flexDirection:"column"}}>
-            <Typography><h2>Todo List</h2></Typography>
+            <Typography><h2>Task List</h2></Typography>
 
             <TextField style={{ margin:"10px"}}   type='text' value={title} onChange={(e) => setTitle(e.target.value)} placeholder='Title' />
             <TextField style={{ margin:"10px"}}   type='text' value={description} onChange={(e) => setDescription(e.target.value)} placeholder='Description' />
@@ -88,7 +88,7 @@ const TodoList = () => {
                 width:"200px"
              }}
             
-            onClick={addTodo}>Add Todo</Button>
+            onClick={addTodo}>Add Task</Button>
             </center>
             
             </div>

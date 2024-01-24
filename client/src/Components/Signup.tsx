@@ -38,7 +38,7 @@ const Signup = () => {
               color:"white"
           }}>
               <Typography variant={"h6"}>
-              Welcome to TODO. Sign up below
+              Welcome to TaskM. Sign up below
               </Typography>
           </div>
       <div style={{display: "flex", justifyContent: "center"}}>

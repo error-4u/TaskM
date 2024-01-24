@@ -39,7 +39,7 @@ const Login = () => {
             
           }}>
               <Typography variant={"h6"} style={{color:"white"}}> 
-              Welcome to TODO. Login below
+              Welcome to TaskM. Login below
               </Typography>
           </div>
       <div style={{display: "flex", justifyContent: "center"}}>

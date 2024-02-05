@@ -21,4 +21,4 @@ app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
 })
 
-mongoose.connect(dbkey, { dbName: "courses" });
+mongoose.connect(dbkey, { dbName: "courses"});
